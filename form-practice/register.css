@@ -1,0 +1,52 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.container{
+    height: 100vh;
+    background: linear-gradient(to bottom, gray, orange, red);
+    display: flex;
+    justify-content: center;
+    align-items: center;    
+}
+form{
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+    height: fit-content;
+    padding: 20px 40px;
+    align-items: center;
+    border-radius: 20px;
+
+}
+label{
+    align-self: self-start;
+    margin-left: 40px;
+}
+input{
+    width: 80%;
+    padding: 5px 10px;
+    font-size: 18px;
+    border-radius: 10px;
+    
+}
+select{
+    width: 80%;
+}
+.submit{
+    background-color: rgb(2, 212, 2);
+    color: white;
+    font-weight: bold;
+    font-size: 14px;
+    margin: 20px 0;
+    width: fit-content ;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    transition: 0.3s;
+}
+.submit:hover{
+    background-color: black;
+}
